@@ -7,7 +7,7 @@ tags:
   - JetBrains
 categories:
   - Development
-excerpt: "This is a collection of my personal configurations for various IDEs, including VSCode and JetBrains IDEs. It includes key mappings, settings, and plugins that I find useful for my workflow."
+excerpt: This is a collection of my personal configurations for various IDEs, including VSCode and JetBrains IDEs. It includes key mappings, settings, and plugins that I find useful for my workflow.
 ---
 
 ## VSCode Vim Keymap

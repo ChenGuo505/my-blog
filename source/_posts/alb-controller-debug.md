@@ -55,7 +55,7 @@ These logs confirmed my suspicion: the controller was attempting to process serv
 
 Once I understood the root cause, the fix was simple: we removed the AWS LB-related annotations from all non-LoadBalancer services. After that, the controller stopped treating them as LoadBalancers, stopped adding them to the internal cache, and finally allowed the security group to be deleted as expected.
 
-#### Takeaways
+**Takeaways**
 
 - **Caching can be dangerous**: Especially when the controller’s decision logic relies on an internal map rather than querying the live state.
 - **Annotations are powerful — and risky**: Leaving legacy annotations in place can lead to subtle and unexpected side effects.

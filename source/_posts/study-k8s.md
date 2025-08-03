@@ -8,11 +8,9 @@ tags:
   - Golang
 categories:
   - Development
-
+description:
+  This post introduces the basics of Kubernetes controller development, covering key concepts, common patterns, and lessons learned from hands-on experience. A quick guide for anyone looking to extend Kubernetes with custom logic.
 ---
-
-This post introduces the basics of Kubernetes controller development, covering key concepts, common patterns, and lessons learned from hands-on experience. A quick guide for anyone looking to extend Kubernetes with custom logic.
-<!-- more -->
 
 Kubernetes is not just a platform for container orchestration — it’s also a powerful extension framework. One of the most essential extensibility mechanisms in Kubernetes is the **controller**. Over the past few weeks, I’ve been diving deep into Kubernetes controller development. In this blog post, I’ll walk through the key patterns and share some personal insights I gained during the learning process.
 

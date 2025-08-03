@@ -7,10 +7,9 @@ tags:
   - Golang
 categories:
   - Development
+description:
+  In this post, I’ll walk through how I debugged an AWS security group leak, the discovery process involving the AWS Load Balancer Controller, and how a subtle misconfiguration in our services led to the leak.
 ---
-
-In this post, I’ll walk through how I debugged an AWS security group leak, the discovery process involving the AWS Load Balancer Controller, and how a subtle misconfiguration in our services led to the leak.
-<!-- more -->
 
 In one of my recent projects, I encountered a persistent and puzzling issue while managing AWS cloud resources via [Crossplane](https://crossplane.io/) in a Kubernetes cluster. Specifically, when deleting certain cloud infrastructure using Crossplane, the process would always hang — and upon investigation, the root cause turned out to be a leaked **security group** that was never deleted.
 

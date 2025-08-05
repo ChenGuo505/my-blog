@@ -158,7 +158,7 @@ func worker(ctx context.Context) {
 
 Go’s philosophy is:
 
-> “**Do not communicate by sharing memory; share memory by communicating.**”
+> “Do not communicate by sharing memory; share memory by communicating.”
 
 Instead of locking shared state with mutexes, try to use channels to synchronize access.
 

@@ -6,7 +6,7 @@ tags:
 categories:
   - Study
 description:
-  In this post, we’ll explore the internal structure of slices, how they behave with append, the cost of copying, and tips to use them safely and efficiently.
+  In this post, I’ll explore the internal structure of slices, how they behave with append, the cost of copying, and tips to use them safely and efficiently.
 ---
 
 Go’s slice is one of the most commonly used yet often misunderstood types. It looks like a simple dynamic array on the surface, but under the hood, slices have some subtle behaviors that every Go developer should understand to avoid bugs and performance issues.
